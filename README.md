@@ -40,7 +40,7 @@ And allows admins to:
 
 ---
 
-### 🧑‍💼 Admin Features
+## 🧑‍💼 Admin Features
 - Dashboard with analytics  
 - Rooms CRUD  
 - Bookings management  
