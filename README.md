@@ -2,8 +2,6 @@
 
 A full-featured **Hotel Booking & Management System** built with **React (Vite + TypeScript)** with support for both **User and Admin dashboards** and **Arabic/English localization**.
 
----
-
 <div align="center">
   <a href="https://hotel-system-app.netlify.app/#/" target="_blank">
     <img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-ff7a00?style=for-the-badge&logo=vercel&logoColor=white"/>
