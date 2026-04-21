@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# 🏨 Hotel Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured **Hotel Booking & Management System** built with **React (Vite + TypeScript)** with support for both **User and Admin dashboards** and **Arabic/English localization**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  <a href="https://hotel-system-app.netlify.app/#/" target="_blank">
+    <img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-ff7a00?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Overview
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This system allows users to:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🏠 Browse available rooms  
+- ⭐ Add rooms to favorites  
+- 📅 Book rooms with date selection  
+- 💳 Pay using Stripe  
+- 🌍 Switch between Arabic & English (RTL support)  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+And allows admins to:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- 🧑‍💼 Manage rooms, bookings, ads, and users  
+- 📊 View dashboard analytics  
+- 🏨 Control hotel content and facilities  
+
+---
+
+## ✨ Features
+
+### 👤 User Features
+- Room browsing and search  
+- Room details page  
+- Booking system  
+- Favorites system  
+- Stripe payment integration  
+- Multi-language support  
+
+---
+
+### 🧑‍💼 Admin Features
+- Dashboard with analytics  
+- Rooms CRUD  
+- Bookings management  
+- Users management  
+- Ads & facilities management  
+
+---
+
+## 🛠️ Tech Stack
+
+- React 19 + Vite  
+- TypeScript  
+- Material UI (MUI)  
+- React Router  
+- Axios  
+- JWT Authentication  
+- Stripe Payments  
+- i18next (Localization)  
+- Chart.js  
+- Swiper  
+- React Hook Form  
+- React Toastify  
+
+---
+
+## 🚀 Getting Started
+
+### Clone repo
+```bash
+git clone https://github.com/SamarZeinah/Hotel-System.git
